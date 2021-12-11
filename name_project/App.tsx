@@ -7,6 +7,8 @@ import {createStackNavigator} from '@react-navigation/stack';
 const Stack = createStackNavigator();
 import Filter from './src/screens/Filter/index';
 import MainTab from './src/nav/MainTab';
+import Onboarding1 from './Onboarding1';
+import Onboarding2 from './Onboarding2';
 const App = () => {
   return (
     <NavigationContainer>
@@ -23,6 +25,7 @@ const App = () => {
         />
       </Stack.Navigator>
     </NavigationContainer>
+    // <Onboarding2 />
   );
 };
 

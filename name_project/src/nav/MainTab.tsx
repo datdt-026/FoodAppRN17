@@ -80,8 +80,8 @@ const MyTab = ({state, inactiveTintColor, activeTintColor, navigation}) => {
         return (
           <View>
             <IconlyPack.Buy set="bold" color={color} key={item} />
-            <View style={StyleSheet.badge}>
-              <Text style={StyleSheet.txtNumberCart}>7</Text>
+            <View style={styles.badge}>
+              <Text style={styles.txtNumberCart}>7</Text>
             </View>
           </View>
         );
